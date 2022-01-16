@@ -1,6 +1,6 @@
 
 
-# QuickStyler - McWics 2022 Hackathon - 2nd place overall Winner
+# QuickStyler - McWics 2022 Hackathon - 2nd place Overall Winner
 
 ![](https://i.imgur.com/FdmOupX.png)
 
