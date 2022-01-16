@@ -3,8 +3,6 @@
     src: url('../assets/Alumatica.ttf');
 }
 
-
-
 body {
     font-family: Alumatica, serif;
     font-weight: bold;
@@ -12,32 +10,24 @@ body {
     background-color: #FFF6EB;
 
 }
-.homescreen {
-    width: 300px;
-
+.test{
+    background-color: red;
 }
 
-.homescreen .row {
-    margin-top: 10px !important;
-}
 .round-corners{
-    border-radius: 32%;
+    border-radius: 43px;
     background-color: white;
     /*enlever*/
-
+    max-width: 300px !important;
+    height: 300px !important;
     position:relative;
-}
-
-.square {
-    width: 100px !important;
-    height: 100px !important;
 }
 
 .round-corners .align-upper-left{
     /*text-align: left;*/
     font-weight: bolder;
     color: black;
-    font-size: 2em;
+    font-size: 7em;
     vertical-align: top;
     position:absolute;
     top: 10%;
@@ -49,26 +39,18 @@ body {
     text-align: right;
     font-weight: bolder;
     color: black;
-    font-size: 0.8em;
+    font-size: 2em;
     vertical-align: bottom;
     position:absolute;
     bottom:0px;
     right: 10%; /* text margin*/
 }
 
- .container .tag-container{
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    width: 100%;
-    height: auto;
-    border-radius: 17%;
-}
-
 .tag {
-    margin: 2px;
+    border-radius: 25%;
+    padding-top: 0.5% !important;
+    padding-bottom: 0% !important;
+    /*font-weight: bolder;*/
     border: none;
     color: white;
 }
@@ -77,18 +59,37 @@ body {
 
     -webkit-transition : -webkit-filter 125ms linear;
 }
-
 .unselected-tag{
     -webkit-transition : -webkit-filter 125ms linear;
     background-color: steelblue;
 }
 .selected-tag {
     -webkit-transition : -webkit-filter 125ms linear;
-    background-color: indianred;
+    background-color: palevioletred;
 }
-
-
 
 /*snow weather https://icons.getbootstrap.com/icons/cloud-snow/*/
 /*shirt : https://www.flaticon.com/free-icon/black_44255?term=shirt&page=1&position=8&page=1&position=8&related_id=44255&origin=tag*/
 /*save icon : https://icons.getbootstrap.com/icons/box-arrow-down/*/
+.bouton-carrousel{
+    color:#6A6A6A;
+}
+
+.bouton-carrousel{
+    color:#6A6A6A;
+}
+
+.carousel_button_validate{
+    color: #9a9a9a;
+    border-radius: 50%;
+    font-size: 100%;
+}
+
+.bottom_carrousel{
+    padding-left: 1em!important;
+}
+
+.right{
+   float: right;
+   padding-right: 2em!important;
+}
