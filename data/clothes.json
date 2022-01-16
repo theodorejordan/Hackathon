@@ -19,19 +19,19 @@
 }, {
 "id": 4,
 "cloth_name": "Black Hat",
-"cloth_type": "hat",
+"cloth_type": "Hat",
 "URL": "https://cdn.pixabay.com/photo/2013/07/13/10/41/hat-157581_960_720.png",
 "tags": ["fancy", "all black", "sober"]
 }, {
 "id": 5,
 "cloth_name": "Cowboy Pants",
-"cloth_type": "pants",
+"cloth_type": "Pants",
 "URL": "https://cdn.pixabay.com/photo/2017/10/30/19/06/leather-pants-2903225_1280.png",
 "tags": ["country"]
 }, {
 "id": 6,
 "cloth_name": "Cowboy Hat Beige",
-"cloth_type": "hat",
+"cloth_type": "Hat",
 "URL": "https://cdn.pixabay.com/photo/2017/09/30/09/29/cowboy-hat-2801582_960_720.png",
 "tags": ["country", "summer"]
 }, {
@@ -43,7 +43,7 @@
 }, {
 "id": 8,
 "cloth_name": "Grey Sports Socks",
-"cloth_type": "Drynan",
+"cloth_type": "Socks",
 "URL": "https://cdn.pixabay.com/photo/2015/04/09/19/53/sock-715022_960_720.jpg",
 "tags": ["grey", "sober", "running", "sport"]
 }, {

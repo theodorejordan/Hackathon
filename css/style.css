@@ -166,7 +166,12 @@ body {
     text-align: center;
 }
 .carousel-item img {
-    height: 200px;
+    height: 250px;
+    width: 300px;
+    max-width: 350px ;
+    object-fit: contain;
+    border-radius: 15%;
+
 }
 
 .go-to-wardrobe-button{

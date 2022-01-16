@@ -30,7 +30,7 @@ function foo(){
 
 function openPreviewPanel(){
     document.getElementById("preview-panel").style.width = "100%";
-    document.getElementById("main-content").style.widthRight = "100%";
+    document.getElementById("main-content").style.marginRight = "100%";
 }
 
 function closePreviewPanel(){
