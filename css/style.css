@@ -22,9 +22,18 @@ body {
     border-radius: 32%;
     background-color: white;
     /*enlever*/
-    width: 100px !important;
     height: 100px !important;
     position:relative;
+}
+.rectangle {
+    padding-top: 25%;
+    margin: 5px;
+    border-radius: 10%;
+    width: 100%;
+}
+
+.square {
+    padding-top: 100%;
 }
 
 .round-corners .align-upper-left{
@@ -166,4 +175,4 @@ body {
     text-align: center;
     position: relative;
     margin-top: 200px;
-} 
+}
