@@ -324,3 +324,61 @@ let setImgUrlShoes = function (eleId){
     }
 }
 
+let refreshImg = function(){
+    //load hat
+    setImgUrlHat("carouselHatControls");
+    //load top
+    setImgUrlTop("carouselTopControls");
+    //load pants
+    setImgUrlPants("carouselBottomControls");
+    //load socks
+    setImgUrlSocks("carouselSocksControls");
+    //load shoes
+    setImgUrlShoes("carouselShoesControls");
+}
+
+// function changeImage(element, url) {
+//     element.classList.add('#imgDispFadeIn');
+//     element.src = url;
+//     $img = $(element.src);
+//     $img.fadeOut(1000, function() {
+//         $img.attr('src', url)
+//         $img.fadeIn(0);
+//     });
+// }
+
+let onSelectScenarioHat = function(id){
+    if (count == 1){
+        refreshImg();
+    }
+    //reset all but hat
+    setImgUrlTop("carouselTopControls");
+    //load pants
+    setImgUrlPants("carouselBottomControls");
+    //load socks
+    setImgUrlSocks("carouselSocksControls");
+    //load shoes
+    setImgUrlShoes("carouselShoesControls");
+
+    //Choose top to set
+    var topActive = document.getElementById("carouselTopControls")
+        .getElementsByClassName("carousel-item active");
+    topActive[0].getElementsByTagName("img")[0].setAttribute("src", topData[1].URL);
+    // changeImage(topActive[0].getElementsByTagName("img")[0], topData[1].URL);
+    //Choose top to set
+    var botActive = document.getElementById("carouselBottomControls")
+        .getElementsByClassName("carousel-item active");
+    botActive[0].getElementsByTagName("img")[0].setAttribute("src", pants[0].URL);
+
+
+    //Choose top to set
+    var socksActive = document.getElementById("carouselSocksControls")
+        .getElementsByClassName("carousel-item active");
+    socksActive[0].getElementsByTagName("img")[0].setAttribute("src", socks[0].URL);
+
+    //Choose top to set
+    var shoesActive = document.getElementById("carouselShoesControls")
+        .getElementsByClassName("carousel-item active");
+    shoesActive[0].getElementsByTagName("img")[0].setAttribute("src", shoes[2].URL);
+}
+

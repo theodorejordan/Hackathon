@@ -20,7 +20,7 @@
                 <img class="justify-content-center " src="" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselHatControls" role="button" data-slide="prev">
             <div class="bouton-carrousel">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -29,7 +29,7 @@
                 <span class="sr-only">Previous</span>
             </div>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselHatControls" role="button" data-slide="next">
             <div class="bouton-carrousel">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
@@ -52,7 +52,7 @@
                     </button>
                 </div>
                 <div class="col-xs-6">
-                    <button type="button" id="carousel_button_2" onClick="setColorSVG(this.id)"
+                    <button type="button" id="carousel_button_2" onClick="setColorSVG(this.id);onSelectScenarioHat(this.id)"
                             class="btn carousel_button_validate right">
                         Select
                         <img src="assets/check-circle-fill.svg"/>
@@ -333,26 +333,26 @@
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="script/main.js"></script>
-<script src="script/wardrobe.js"></script>
-<script>
-    //load hat
-    setImgUrlHat("carouselHatControls");
-    //load top
-    setImgUrlTop("carouselTopControls");
-    //load pants
-    setImgUrlPants("carouselBottomControls");
-    //load socks
-    setImgUrlSocks("carouselSocksControls");
-    //load shoes
-    setImgUrlShoes("carouselShoesControls");
-</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<script src="script/main.js"></script>
+<script src="script/wardrobe.js"></script>
+<script>
+//load hat
+setImgUrlHat("carouselHatControls");
+//load top
+setImgUrlTop("carouselTopControls");
+//load pants
+setImgUrlPants("carouselBottomControls");
+//load socks
+setImgUrlSocks("carouselSocksControls");
+//load shoes
+setImgUrlShoes("carouselShoesControls");
+</script>
 <!--Enlever ceci avant de send le TP!!-->
 
 </body>
@@ -372,7 +372,6 @@
 
             if (count == 0) {
                 property.style.filter = "invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%)";
-                ;
                 count = 1;
             } else {
                 property.style.filter = "";
