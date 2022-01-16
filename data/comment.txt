@@ -1,0 +1,5 @@
+hat : 5
+top : 6
+pants : 5
+shoes : 5
+socks : 4

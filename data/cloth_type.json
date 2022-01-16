@@ -1,0 +1,16 @@
+[{
+  "id": 1,
+  "cloth_type": "Pants"
+}, {
+  "id": 2,
+  "cloth_type": "Shoes"
+}, {
+  "id": 3,
+  "cloth_type": "Hat"
+}, {
+  "id": 4,
+  "cloth_type": "Socks"
+}, {
+  "id": 5,
+  "cloth_type": "Top"
+}]

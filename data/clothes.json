@@ -1,0 +1,301 @@
+[{
+"id": 1,
+"cloth_name": " Red T-Shirt",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_960_720.jpg",
+"tags": ["colorful"]
+}, {
+"id": 2,
+"cloth_name": "Navy Pants",
+"cloth_type": "Pants",
+"URL": "https://cdn.pixabay.com/photo/2017/08/27/05/33/trousers-2685231_1280.jpg",
+"tags": ["navy", "fancy","cold colors","sober"]
+}, {
+"id": 3,
+"cloth_name": "Black Pull",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2017/09/05/09/55/men-wear-2716968_1280.png",
+"tags": ["all black","cold colors","neutral","sober","black"]
+}, {
+"id": 4,
+"cloth_name": "Black Hat",
+"cloth_type": "hat",
+"URL": "https://cdn.pixabay.com/photo/2013/07/13/10/41/hat-157581_960_720.png",
+"tags": ["fancy", "all black", "sober"]
+}, {
+"id": 5,
+"cloth_name": "Cowboy Pants",
+"cloth_type": "pants",
+"URL": "https://cdn.pixabay.com/photo/2017/10/30/19/06/leather-pants-2903225_1280.png",
+"tags": ["country"]
+}, {
+"id": 6,
+"cloth_name": "Cowboy Hat Beige",
+"cloth_type": "hat",
+"URL": "https://cdn.pixabay.com/photo/2017/09/30/09/29/cowboy-hat-2801582_960_720.png",
+"tags": ["country", "summer"]
+}, {
+"id": 7,
+"cloth_name": "Black Socks Blue Flower",
+"cloth_type": "Socks",
+"URL": "https://cdn.pixabay.com/photo/2012/02/23/12/16/socks-16112_960_720.jpg",
+"tags": ["flower", "summer", "fancy", "colorful"]
+}, {
+"id": 8,
+"cloth_name": "Grey Sports Socks",
+"cloth_type": "Drynan",
+"URL": "https://cdn.pixabay.com/photo/2015/04/09/19/53/sock-715022_960_720.jpg",
+"tags": ["grey", "sober", "running", "sport"]
+}, {
+"id": 9,
+"cloth_name": "White And Yellow Running Shoes",
+"cloth_type": "Shoes",
+"URL": "https://cdn.pixabay.com/photo/2020/09/17/06/28/sneakers-5578127_1280.jpg",
+"tags": ["running", "summer", "urban"]
+}, {
+"id": 10,
+"cloth_name": "Soccer Shoes",
+"cloth_type": "Shoes",
+"URL": "https://cdn.pixabay.com/photo/2017/06/12/01/50/soccer-2394121_1280.jpg",
+"tags": ["sport", "urban", "sober"]
+}, {
+"id": 11,
+"cloth_name": "Brown Business Shoes",
+"cloth_type": "Shoes",
+"URL": "https://cdn.pixabay.com/photo/2017/02/08/16/01/business-2049312_1280.jpg",
+"tags": ["fancy", "work"]
+}, {
+"id": 12,
+"cloth_name": "Beach Sandals",
+"cloth_type": "Shoes",
+"URL": "https://cdn.pixabay.com/photo/2020/04/28/04/41/flip-flops-5102747_960_720.png",
+"tags": ["flip flops", "summer", "beach", "colorful"]
+}, {
+"id": 13,
+"cloth_name": "Black and White Striped Socks",
+"cloth_type": "Socks",
+"URL": "https://cdn.pixabay.com/photo/2016/07/04/04/32/sock-1495920_1280.jpg",
+"tags": ["black", "fancy", "sober"]
+}, {
+"id": 14,
+"cloth_name": "Red Socks",
+"cloth_type": "Socks",
+"URL": "https://cdn.pixabay.com/photo/2015/04/09/19/56/sock-715024_1280.jpg",
+"tags": ["warm colors", "comfy"]
+}, {
+"id": 15,
+"cloth_name": "Spicy Sweatshirt",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2019/02/13/19/23/t-shirt-3995093_960_720.png",
+"tags": ["colorful", "paint", "happy", "comfy"]
+}, {
+"id": 16,
+"cloth_name": "Beige Chic Hat",
+"cloth_type": "Hat",
+"URL": "https://cdn.pixabay.com/photo/2016/08/28/11/07/hat-1625676_1280.png",
+"tags": ["summer", "fancy", "flower", "beach"]
+}, {
+"id": 17,
+"cloth_name": "Red Cap",
+"cloth_type": "Hat",
+"URL": "https://cdn.pixabay.com/photo/2017/07/21/14/28/hat-2525910_1280.png",
+"tags": ["urban", "warm colors", "running", "sport"]
+}, {
+"id": 18,
+"cloth_name": "Black Beret",
+"cloth_type": "Hat",
+"URL": "https://cdn.pixabay.com/photo/2020/04/20/08/08/beret-5066979_1280.png",
+"tags": ["all black", "fancy", "black"]
+}, {
+"id": 19,
+"cloth_name": "Sober Skirt",
+"cloth_type": "Pants",
+"URL": "https://cdn.pixabay.com/photo/2020/04/16/20/38/skirt-5052288_1280.jpg",
+"tags": ["fancy", "sober", "work", "neutral"]
+}, {
+"id": 20,
+"cloth_name": "Red Polo",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2013/07/13/14/08/apparel-162192_960_720.png",
+"tags": ["polo", "red", "golf", "casual"]
+}, {
+"id": 21,
+"cloth_name": "Used Jeans",
+"cloth_type": "Pants",
+"URL": "https://cdn.pixabay.com/photo/2014/12/11/10/28/jeans-564089_1280.jpg",
+"tags": ["urban", "navy", "comfy"]
+}, {
+"id": 22,
+"cloth_name": "Light Green T-Shirt",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2016/11/23/06/57/isolated-t-shirt-1852114_1280.png",
+"tags": ["neutral","sober", "cold colors","sport"]
+}, {
+"id": 23,
+"cloth_name": "Sport Adidas Top",
+"cloth_type": "Top",
+"URL": "https://cdn.pixabay.com/photo/2017/06/19/18/44/t-shirt-2420558_1280.png",
+"tags": ["sport", "running", "neutral", "urban", "navy"]
+}, {
+"id": 24,
+"cloth_name": "Linen Yellow Pants",
+"cloth_type": "Pants",
+"URL": "https://cdn.pixabay.com/photo/2020/06/18/09/41/fashion-5312737_1280.jpg",
+"tags": ["comfy", "summer", "flower", "warm colors"]
+}, {
+"id": 25,
+"cloth_name": "Winter Shoes",
+"cloth_type": "Shoes",
+"URL": "https://cdn.pixabay.com/photo/2020/06/21/09/54/shoes-5324169_1280.jpg",
+"tags": ["comfy", "sober", "winter"]
+}, {
+"id": 26,
+"cloth_name": "Corenda",
+"cloth_type": "Gaisford",
+"URL": "http://dummyimage.com/210x100.png/cc0000/ffffff",
+"tags": "tag3"
+}, {
+"id": 27,
+"cloth_name": "Ronald",
+"cloth_type": "Spur",
+"URL": "http://dummyimage.com/121x100.png/5fa2dd/ffffff",
+"tags": "tag2"
+}, {
+"id": 28,
+"cloth_name": "Isacco",
+"cloth_type": "Belsey",
+"URL": "http://dummyimage.com/246x100.png/cc0000/ffffff",
+"tags": "tag3"
+}, {
+"id": 29,
+"cloth_name": "Otis",
+"cloth_type": "Deignan",
+"URL": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+"tags": "tag1"
+}, {
+"id": 30,
+"cloth_name": "Mora",
+"cloth_type": "Cape",
+"URL": "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
+"tags": "tag1"
+}, {
+"id": 31,
+"cloth_name": "Jamison",
+"cloth_type": "Trimming",
+"URL": "http://dummyimage.com/147x100.png/5fa2dd/ffffff",
+"tags": "tag3"
+}, {
+"id": 32,
+"cloth_name": "Roseann",
+"cloth_type": "Fraulo",
+"URL": "http://dummyimage.com/216x100.png/5fa2dd/ffffff",
+"tags": "tag2"
+}, {
+"id": 33,
+"cloth_name": "Caryn",
+"cloth_type": "Guye",
+"URL": "http://dummyimage.com/112x100.png/ff4444/ffffff",
+"tags": "tag2"
+}, {
+"id": 34,
+"cloth_name": "Annie",
+"cloth_type": "St Ange",
+"URL": "http://dummyimage.com/186x100.png/cc0000/ffffff",
+"tags": "tag2"
+}, {
+"id": 35,
+"cloth_name": "Kissiah",
+"cloth_type": "Giraudo",
+"URL": "http://dummyimage.com/219x100.png/dddddd/000000",
+"tags": "tag2"
+}, {
+"id": 36,
+"cloth_name": "Shirlee",
+"cloth_type": "Housaman",
+"URL": "http://dummyimage.com/121x100.png/dddddd/000000",
+"tags": "tag2"
+}, {
+"id": 37,
+"cloth_name": "Gabriele",
+"cloth_type": "Riepel",
+"URL": "http://dummyimage.com/179x100.png/cc0000/ffffff",
+"tags": "tag1"
+}, {
+"id": 38,
+"cloth_name": "Gardy",
+"cloth_type": "Greenman",
+"URL": "http://dummyimage.com/135x100.png/5fa2dd/ffffff",
+"tags": "tag3"
+}, {
+"id": 39,
+"cloth_name": "Oralia",
+"cloth_type": "Menghi",
+"URL": "http://dummyimage.com/114x100.png/dddddd/000000",
+"tags": "tag1"
+}, {
+"id": 40,
+"cloth_name": "Kendre",
+"cloth_type": "Wicklen",
+"URL": "http://dummyimage.com/130x100.png/dddddd/000000",
+"tags": "tag3"
+}, {
+"id": 41,
+"cloth_name": "Barbee",
+"cloth_type": "Llewhellin",
+"URL": "http://dummyimage.com/129x100.png/ff4444/ffffff",
+"tags": "tag3"
+}, {
+"id": 42,
+"cloth_name": "Lucienne",
+"cloth_type": "Charlick",
+"URL": "http://dummyimage.com/158x100.png/cc0000/ffffff",
+"tags": "tag2"
+}, {
+"id": 43,
+"cloth_name": "Valida",
+"cloth_type": "Bartoleyn",
+"URL": "http://dummyimage.com/108x100.png/ff4444/ffffff",
+"tags": "tag1"
+}, {
+"id": 44,
+"cloth_name": "Arney",
+"cloth_type": "Veall",
+"URL": "http://dummyimage.com/229x100.png/ff4444/ffffff",
+"tags": "tag1"
+}, {
+"id": 45,
+"cloth_name": "Keith",
+"cloth_type": "Easter",
+"URL": "http://dummyimage.com/133x100.png/5fa2dd/ffffff",
+"tags": "tag3"
+}, {
+"id": 46,
+"cloth_name": "William",
+"cloth_type": "Drinkhill",
+"URL": "http://dummyimage.com/203x100.png/5fa2dd/ffffff",
+"tags": "tag3"
+}, {
+"id": 47,
+"cloth_name": "Blair",
+"cloth_type": "Spinas",
+"URL": "http://dummyimage.com/118x100.png/ff4444/ffffff",
+"tags": "tag3"
+}, {
+"id": 48,
+"cloth_name": "Rhianna",
+"cloth_type": "Mould",
+"URL": "http://dummyimage.com/100x100.png/ff4444/ffffff",
+"tags": "tag2"
+}, {
+"id": 49,
+"cloth_name": "Berna",
+"cloth_type": "Booij",
+"URL": "http://dummyimage.com/240x100.png/cc0000/ffffff",
+"tags": "tag3"
+}, {
+"id": 50,
+"cloth_name": "Caspar",
+"cloth_type": "Bucklee",
+"URL": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
+"tags": "tag1"
+}]
