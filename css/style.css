@@ -255,3 +255,20 @@ body {
     background-color: rgb(117, 63, 0);
     font-size: 120%;
 }
+
+.Clothes-inner{
+    text-align: center;
+}
+
+.Clothes-Page-img{
+    width: 370px;
+    height: 250px;
+    padding-top: 2em!important;
+}
+.btn-clothesPage{
+    margin-top: 2em!important ;
+}
+
+.no-center{
+    text-align: left;
+}
