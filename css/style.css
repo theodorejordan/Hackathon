@@ -13,8 +13,7 @@ body {
 
 }
 .homescreen {
-    width: 300px;
-
+    width: 390px;
 }
 
 .homescreen .row {
@@ -149,14 +148,14 @@ body {
     width: 100%;
     height: auto;
     border-radius: 23%;
-    font-size:250%;
+    font-size:150%;
 }
 
 .unselected-tag-quiz{
     -webkit-transition : -webkit-filter 125ms linear;
-    background-color: rgb(160, 181, 197);
+    background-color: rgb(156, 204, 241);
 }
 .selected-tag-quiz {
     -webkit-transition : -webkit-filter 125ms linear;
-    background-color: rgb(8, 74, 117);
+    background-color: rgb(3, 56, 92);
 }
