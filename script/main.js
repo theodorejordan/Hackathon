@@ -30,12 +30,12 @@ function foo(){
 
 function openPreviewPanel(){
     document.getElementById("preview-panel").style.width = "100%";
-    document.getElementById("main-container").style.widthRight = "100%";
+    document.getElementById("main-content").style.widthRight = "100%";
 }
 
 function closePreviewPanel(){
     document.getElementById("preview-panel").style.width = "0%";
-    document.getElementById("main-container").style.marginRight = "0%";
+    document.getElementById("main-content").style.marginRight = "0%";
 }
 
 function selectButtonQuiz(elem) {
