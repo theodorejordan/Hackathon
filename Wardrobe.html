@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wardrobe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/force-device.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
 <body>
 <div id="main-content" class="container homescreen col-md-12">
     <div class="container">
@@ -318,28 +329,51 @@
     </div>
 
     <!--Side button du preview panel-->
-    <button class="preview-button-open" onclick="openPreviewPanel()"><i class="bi bi-arrow-left-square"></i>
-    </button>
+    <button class="btn preview-button-open float-right" onclick="openPreviewPanel()"><i class="bi bi-chevron-compact-left"></i></button>
+
     <!--VISUEL DU PREVIEW PANEL-->
     <div id="preview-panel" class="preview-panel">
         <div class="container">
             <div class="row justify-content-md-right">
                 <i class="bi bi-x-lg hover">
-                    <button onclick="closePreviewPanel()"></button>
+                    <button id="buttolinni" class="btn " onclick="closePreviewPanel(this)"><i class="bi bi-arrow-left"></i></button>
                 </i>
             </div>
             <!--ce qui est sur le panel-->
-            <div class="row">
-                <h1>OUTFIT</h1>
+            <div class="container paneli-ravioli">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1>My Outfit</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="assets/test_tshirt.jpeg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="assets/test_top.jpeg">
+                    </div>
+                </div>
+                <div class="row d-flex text-center sharey">
+                    <div class="col">
+                        <button class="btn text-center">
+                            <i class="bi bi-box-arrow-up"></i>
+                        </button>
+                    </div>
+                    <div class="col text-center sharey">
+                        <button class="btn text-center">
+                            <i class="bi bi-plus-circle"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <h1>HAT</h1>
-            </div>
+
         </div>
     </div>
 
 </div>
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -350,47 +384,36 @@
 <script src="script/main.js"></script>
 <script src="script/wardrobe.js"></script>
 <script>
-//load hat
-setImgUrlHat("carouselHatControls");
-//load top
-setImgUrlTop("carouselTopControls");
-//load pants
-setImgUrlPants("carouselBottomControls");
-//load socks
-setImgUrlSocks("carouselSocksControls");
-//load shoes
-setImgUrlShoes("carouselShoesControls");
+    //load hat
+    setImgUrlHat("carouselHatControls");
+    //load top
+    setImgUrlTop("carouselTopControls");
+    //load pants
+    setImgUrlPants("carouselBottomControls");
+    //load socks
+    setImgUrlSocks("carouselSocksControls");
+    //load shoes
+    setImgUrlShoes("carouselShoesControls");
 </script>
-<!--Enlever ceci avant de send le TP!!-->
+<script>
+    var count = 0;
 
+    function setColorSVG(id) {
+        var property = document.getElementById(id);
+
+        if (count == 0) {
+            property.style.filter = "invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%)";
+            count = 1;
+        } else {
+            property.style.filter = "";
+            count = 0;
+        }
+    }
+
+    function goToPage() {
+        console.log("qweqwe");
+    }
+</script>
 </body>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wardrobe</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/force-device.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script>
-        var count = 0;
 
-        function setColorSVG(id) {
-            var property = document.getElementById(id);
-
-            if (count == 0) {
-                property.style.filter = "invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%)";
-                count = 1;
-            } else {
-                property.style.filter = "";
-                count = 0;
-            }
-        }
-
-        function goToPage() {
-            console.log("qweqwe");
-        }
-    </script>
-</head>
 </html>
-

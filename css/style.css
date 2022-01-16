@@ -125,7 +125,28 @@ img {
 }
 /*preview*/
 
-.preview-panel {
+.paneli-ravioli {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bolder;
+}
+.paneli-ravioli img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+#buttolinni {
+    color: white;
+    font-size: 2em;
+}
+
+.sharey {
+    color: white !important;
+}
+
+.preview-panel{
     height: 100%;
     width: 0;
     position: fixed;
@@ -138,8 +159,8 @@ img {
     padding-top: 60px;
 }
 
-.preview-button {
-    float: right;
+.preview-button-open:hover {
+    margin-right: 2% !important;
 }
 
 .carousel_button_validate{
