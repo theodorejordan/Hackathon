@@ -22,3 +22,14 @@ function selectButton(elem) {
 function foo(){
     console.log("fooo");
 }
+
+
+function openPreviewPanel(){
+    document.getElementById("preview-panel").style.width = "100%";
+    document.getElementById("main-container").style.widthRight = "100%";
+}
+
+function closePreviewPanel(){
+    document.getElementById("preview-panel").style.width = "0%";
+    document.getElementById("main-container").style.marginRight = "0%";
+}
