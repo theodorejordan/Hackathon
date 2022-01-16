@@ -74,3 +74,11 @@ function removeTag(tag){
 function getTagText(elem){
     return elem.textContent.trim();
 }
+
+function goToWardrobe(){
+    console.log("GO TO WARDROBE");
+}
+
+function returnToHome(){
+    console.log("RETURN TO HOME");
+}
