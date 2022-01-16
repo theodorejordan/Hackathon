@@ -24,7 +24,7 @@ body {
     border-radius: 43px;
     background-color: white;
     /*enlever*/
-    max-width: 300px !important;
+    width: 300px !important;
     height: 300px !important;
     position:relative;
 }

@@ -1,34 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wardrobe</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/force-device.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script>
-        var count = 0;
-
-        function setColorSVG(id) {
-            var property = document.getElementById(id);
-
-            if (count == 0) {
-                property.style.filter = "invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%)";
-                ;
-                count = 1;
-            } else {
-                property.style.filter = "";
-                count = 0;
-            }
-        }
-
-        function goToPage() {
-            console.log("qweqwe");
-        }
-    </script>
-</head>
 <body>
 <div id="main-content" class="container homescreen col-md-12">
     <div class="title_carousel">
@@ -92,21 +63,21 @@
     <!--Side button du preview panel-->
     <button class="preview-button-open" onclick="openPreviewPanel()"><i class="bi bi-arrow-left-square"></i>
     </button>
-</div>
-<!--VISUEL DU PREVIEW PANEL-->
-<div id="preview-panel" class="preview-panel">
-    <div class="container">
-        <div class="row justify-content-md-right">
-            <i class="bi bi-x-lg hover">
-                <button onclick="closePreviewPanel()"></button>
-            </i>
-        </div>
-        <!--ce qui est sur le panel-->
-        <div class="row">
-            <h1>OUTFIT</h1>
-        </div>
-        <div class="row">
-            <h1>HAT</h1>
+    <!--VISUEL DU PREVIEW PANEL-->
+    <div id="preview-panel" class="preview-panel">
+        <div class="container">
+            <div class="row justify-content-md-right">
+                <i class="bi bi-x-lg hover">
+                    <button onclick="closePreviewPanel()"></button>
+                </i>
+            </div>
+            <!--ce qui est sur le panel-->
+            <div class="row">
+                <h1>OUTFIT</h1>
+            </div>
+            <div class="row">
+                <h1>HAT</h1>
+            </div>
         </div>
     </div>
 </div>
@@ -122,5 +93,34 @@
 <!--Enlever ceci avant de send le TP!!-->
 
 </body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wardrobe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/force-device.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        var count = 0;
+
+        function setColorSVG(id) {
+            var property = document.getElementById(id);
+
+            if (count == 0) {
+                property.style.filter = "invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%)";
+                ;
+                count = 1;
+            } else {
+                property.style.filter = "";
+                count = 0;
+            }
+        }
+
+        function goToPage() {
+            console.log("qweqwe");
+        }
+    </script>
+</head>
 </html>
 
