@@ -25,6 +25,15 @@ body {
     height: 100px !important;
     position:relative;
 }
+
+.round-corners:hover{
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    background:#dbf8ff;
+    transition: 0.1s ease;
+}
+
 .rectangle {
     padding-top: 25%;
     margin: 5px;
@@ -107,7 +116,13 @@ body {
     filter: brightness(125%);
 
     -webkit-transition : -webkit-filter 125ms linear;
+
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    transition: 0.1s ease;
 }
+
 .unselected-tag{
     -webkit-transition : -webkit-filter 125ms linear;
     background-color: steelblue;
