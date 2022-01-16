@@ -1,6 +1,6 @@
 
 
-# Quick Styler
+# QuickStyler - McWics 2022 Hackathon Winner - 2nd place overall
 
 ![](https://i.imgur.com/FdmOupX.png)
 
@@ -47,3 +47,8 @@ We learned a lot about web programming, especially managing time and work for 4 
 * **Share clothing recommendations & outfits** to your friends and to your feed
 * **Interact with your connections** through a fashion lens
 * **Follow celebrities & influencers' style choices** and copy them through the tap of a finger
+
+## Acknowledgments
+Huge thank you to McWics for organizing the hackathon, we had a blast! 
+
+Special thanks to Louis & Uber Eats. 
