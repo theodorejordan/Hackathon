@@ -1,3 +1,4 @@
+#pour nous aider a suivre le compte. Peut y avoir des erreurs de compte.
 hat : 5
 top : 6
 pants : 5
