@@ -28,9 +28,9 @@ Connections to **calendar**, **weather** to get **event and temperature-based re
 
 We built it with HTML, JS, CSS, Json and Bootstrap! 
 
-## Challenges we ran into Our biggest problem was time.
+## Challenges we ran into 
 
-We were too ambitious and we couldn't finish all the desired features, although for a Hackathon this is very much expected :-)
+Our biggest problem was time. We were too ambitious and we couldn't finish all the desired features, although for a Hackathon this is very much expected :-)
 
 ## Accomplishments that we're proud of 
 
