@@ -10,9 +10,7 @@ body {
     background-color: #FFF6EB;
 
 }
-.test{
-    background-color: red;
-}
+
 .homescreen {
     width: 390px;
 }
@@ -21,11 +19,11 @@ body {
     margin-top: 10px !important;
 }
 .round-corners{
-    border-radius: 43px;
+    border-radius: 32%;
     background-color: white;
     /*enlever*/
-    width: 300px !important;
-    height: 300px !important;
+    width: 100px !important;
+    height: 100px !important;
     position:relative;
 }
 
@@ -33,7 +31,7 @@ body {
     /*text-align: left;*/
     font-weight: bolder;
     color: black;
-    font-size: 7em;
+    font-size: 2em;
     vertical-align: top;
     position:absolute;
     top: 10%;
@@ -45,18 +43,23 @@ body {
     text-align: right;
     font-weight: bolder;
     color: black;
-    font-size: 2em;
+    font-size: 0.8em;
     vertical-align: bottom;
     position:absolute;
     bottom:0px;
     right: 10%; /* text margin*/
 }
-
+.container .tag-container{
+    background-color: white;
+    margin-top: 3px;
+    padding-top: 10px !important;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
 .tag {
+    margin: 2px;
     border-radius: 25%;
-    padding-top: 0.5% !important;
-    padding-bottom: 0% !important;
-    /*font-weight: bolder;*/
     border: none;
     color: white;
 }
@@ -96,7 +99,7 @@ body {
     padding-top: 60px;
 }
 
-.preview-button-open {
+.preview-button {
     float: right;
 }
 
@@ -111,8 +114,8 @@ body {
 }
 
 .right{
-   float: right;
-   padding-right: 2em!important;
+    float: right;
+    padding-right: 2em!important;
 }
 
 .title_carousel{
@@ -146,21 +149,3 @@ body {
     background-color: rgb(3, 56, 92);
 }
 
-.go-to-wardrobe-button{
-    -webkit-transition : -webkit-filter 125ms linear;
-    background-color: rgb(201, 114, 0);
-    font-size: 140%;;
-}
-
-.go-to-home-button{
-    -webkit-transition : -webkit-filter 125ms linear;
-    background-color: rgb(173, 173, 173);
-    font-size: 120%;
-}
-
-.go-to-wardrobe-div{
-    -webkit-transition : -webkit-filter 125ms linear;
-    text-align: center;
-    position: relative;
-    margin-top: 200px;
-}
