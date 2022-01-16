@@ -47,12 +47,42 @@ body {
     left: 10%; /* text margin*/
 }
 
+.round-corners .align-upper-left-image{
+    /*text-align: left;*/
+    font-weight: bolder;
+    vertical-align: top;
+    position:absolute;
+    top: 5%;
+    left: 20%;
+}
+
+img {
+    width: 60px;
+    height: 90px;
+}
+
+.img-manage {
+    width: 300px;
+    height: 500px;
+}
+
+.round-corners .align-upper-right{
+    text-align: right;
+    font-weight: bolder;
+    color: black;
+    font-size: 2em;
+    vertical-align: top;
+    position:absolute;
+    top: 10%;
+    right: 10%; /* text margin*/
+}
+
 
 .round-corners .align-lower-right{
     text-align: right;
     font-weight: bolder;
     color: black;
-    font-size: 0.8em;
+    font-size: 1.2em;
     vertical-align: bottom;
     position:absolute;
     bottom:0px;
@@ -186,4 +216,17 @@ body {
     text-align: center;
     position: relative;
     margin-top: 200px;
+}
+
+.go-to-wardrobe-from-home-div{
+    -webkit-transition : -webkit-filter 125ms linear;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.go-to-quizz-button{
+    -webkit-transition : -webkit-filter 125ms linear;
+    background-color: rgb(117, 63, 0);
+    font-size: 120%;
 }
