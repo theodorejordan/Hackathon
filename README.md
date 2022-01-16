@@ -2,7 +2,7 @@
 
 # Quick Styler
 
-![](https://i.imgur.com/IpbtAYS.png)
+![](https://i.imgur.com/FdmOupX.png)
 
 ## Inspiration 
 
