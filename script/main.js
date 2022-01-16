@@ -23,17 +23,12 @@ function selectButton(elem) {
     }
 }
 
-function foo(){
-    console.log("fooo");
-}
-
-
 function openPreviewPanel(){
     document.getElementById("preview-panel").style.width = "100%";
     document.getElementById("main-content").style.marginRight = "100%";
 }
 
-function closePreviewPanel(){
+function closePreviewPanel(elem){
     document.getElementById("preview-panel").style.width = "0%";
     document.getElementById("main-content").style.marginRight = "0%";
 }
@@ -73,4 +68,12 @@ function removeTag(tag){
 }
 function getTagText(elem){
     return elem.textContent.trim();
+}
+
+function goToWardrobe(){
+    console.log("GO TO WARDROBE");
+}
+
+function returnToHome(){
+    console.log("RETURN TO HOME");
 }

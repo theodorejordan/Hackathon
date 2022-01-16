@@ -9,10 +9,17 @@ body {
     color: black;
     background-color: #FFF6EB;
 
+
 }
 
 .homescreen {
     width: 390px;
+
+    /*-webkit-filter: blur(6px);*/
+    /*-moz-filter: blur(6px);*/
+    /*-o-filter: blur(6px);*/
+    /*-ms-filter: blur(6px);*/
+    /*filter: blur(6px) ;*/
 }
 
 .homescreen .row {
@@ -47,42 +54,12 @@ body {
     left: 10%; /* text margin*/
 }
 
-.round-corners .align-upper-left-image{
-    /*text-align: left;*/
-    font-weight: bolder;
-    vertical-align: top;
-    position:absolute;
-    top: 5%;
-    left: 20%;
-}
-
-img {
-    width: 60px;
-    height: 90px;
-}
-
-.img-manage {
-    width: 300px;
-    height: 500px;
-}
-
-.round-corners .align-upper-right{
-    text-align: right;
-    font-weight: bolder;
-    color: black;
-    font-size: 2em;
-    vertical-align: top;
-    position:absolute;
-    top: 10%;
-    right: 10%; /* text margin*/
-}
-
 
 .round-corners .align-lower-right{
     text-align: right;
     font-weight: bolder;
     color: black;
-    font-size: 1.2em;
+    font-size: 0.8em;
     vertical-align: bottom;
     position:absolute;
     bottom:0px;
@@ -123,23 +100,44 @@ img {
 .bouton-carrousel{
     color:#6A6A6A;
 }
-/*preview*/
 
-.preview-panel {
+.paneli-ravioli {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bolder;
+}
+.paneli-ravioli img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+#buttolinni {
+    color: white;
+    font-size: 2em;
+}
+
+.sharey {
+    color: white !important;
+}
+
+.preview-panel{
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.5);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    red
 }
 
-.preview-button {
-    float: right;
+.preview-button-open:hover {
+    margin-right: 2% !important;
 }
 
 .carousel_button_validate{
@@ -177,6 +175,7 @@ img {
     height: auto;
     border-radius: 23%;
     font-size:150%;
+
 }
 
 .unselected-tag-quiz{
@@ -196,17 +195,7 @@ img {
     text-align: center;
 }
 .carousel-item img {
-    height: 250px;
-    width: 300px;
-    max-width: 350px ;
-    object-fit: contain;
-    border-radius: 15%;
-
-}
-
-.bottom_carrousel img{
-    height: 15px;
-    width: 15px;
+    height: 200px;
 }
 
 .go-to-wardrobe-button{
@@ -226,17 +215,4 @@ img {
     text-align: center;
     position: relative;
     margin-top: 200px;
-}
-
-.go-to-wardrobe-from-home-div{
-    -webkit-transition : -webkit-filter 125ms linear;
-    text-align: center;
-    position: relative;
-    margin-top: 100px;
-}
-
-.go-to-quizz-button{
-    -webkit-transition : -webkit-filter 125ms linear;
-    background-color: rgb(117, 63, 0);
-    font-size: 120%;
 }
