@@ -204,6 +204,11 @@ img {
 
 }
 
+.bottom_carrousel img{
+    height: 15px;
+    width: 15px;
+}
+
 .go-to-wardrobe-button{
     -webkit-transition : -webkit-filter 125ms linear;
     background-color: rgb(201, 114, 0);
