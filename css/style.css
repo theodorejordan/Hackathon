@@ -149,3 +149,13 @@ body {
     background-color: rgb(3, 56, 92);
 }
 
+.carousel {
+    height: 250px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+.carousel-item img {
+    height: 200px;
+}
