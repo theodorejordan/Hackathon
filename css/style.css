@@ -13,7 +13,14 @@ body {
 .test{
     background-color: red;
 }
+.homescreen {
+    width: 380px;
 
+}
+
+.homescreen .row {
+    margin-top: 10px !important;
+}
 .round-corners{
     border-radius: 43px;
     background-color: white;
@@ -92,4 +99,7 @@ body {
 .right{
    float: right;
    padding-right: 2em!important;
+}
+.title_carousel{
+    padding-top: 1em!important;
 }
