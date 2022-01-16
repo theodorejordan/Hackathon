@@ -74,3 +74,20 @@ body {
 .bouton-carrousel{
     color:#6A6A6A;
 }
+
+.carousel_button_validate{
+    color: #9a9a9a;
+    border-radius: 50%;
+    font-size: 100%;
+}
+
+.bottom_carrousel{
+    padding-left: 1em!important;
+}
+
+.right{
+   float: right;
+   padding-right: 2em!important;
+}
+
+
