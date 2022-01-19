@@ -47,7 +47,7 @@ We learned a lot about web programming, especially managing time and work for 4 
 * **Machine learning + data collection** refine ad suggestions based on user activity details
 * **Share clothing recommendations & outfits** to your friends and to your feed
 * **Interact with your connections** through a fashion lens
-* **Follow celebrities & influencers' style choices** and copy them through the tap of a finger
+* **Follow celebrities & influencers' style choices** - buy their outfit in-app through the tap of a finger!
 
 ## Acknowledgments
 Huge thank you to McWics for organizing the hackathon, we had a blast! 
