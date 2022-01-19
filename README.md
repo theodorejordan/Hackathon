@@ -42,7 +42,7 @@ We are really proud of what we built, given the time we had.
 
 We learned a lot about web programming, especially managing time and work for 4 people with different skillsets. We learned to communicate efficiently during long work hours and in situations of fatigue. 
 
-## What's next for Quick Styler 
+## What's next for QuickStyler 
 * **Graph algorithms to help create smart relationships between pieces of clothing** 
 * **Machine learning + data collection** refine ad suggestions based on user activity details
 * **Share clothing recommendations & outfits** to your friends and to your feed
