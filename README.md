@@ -18,9 +18,9 @@ This can even be more complicated in certain situations, especially when we're l
 
 ## How does QuickStyler help you every day?
 
-**Personalized outfit suggestions** directly from your wardrobe!
-**Tags** help sort clothes by **mood**, **type of clothing**, and **colour schemes**!
-Connections to **calendar**, **weather** to get **event and temperature-based recommendations**!
+* **Personalized outfit suggestions** directly from your wardrobe
+* **Tags** help sort clothes by **mood**, **type of clothing**, and **colour schemes**
+* Connections to **calendar**, **weather** to get **event and temperature-based recommendations**
 
 *Note: A lot of these features are only implemented in part, given the time constraints*
 
@@ -43,7 +43,8 @@ We are really proud of what we built, given the time we had.
 We learned a lot about web programming, especially managing time and work for 4 people with different skillsets. We learned to communicate efficiently during long work hours and in situations of fatigue. 
 
 ## What's next for Quick Styler 
-* **Graph algorithms to help create smart relationships between pieces of clothing** - Machine learning + data collection refine ad suggestions based on user activity details
+* **Graph algorithms to help create smart relationships between pieces of clothing** 
+* **Machine learning + data collection** refine ad suggestions based on user activity details
 * **Share clothing recommendations & outfits** to your friends and to your feed
 * **Interact with your connections** through a fashion lens
 * **Follow celebrities & influencers' style choices** and copy them through the tap of a finger
